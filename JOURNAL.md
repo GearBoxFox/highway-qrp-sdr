@@ -8,3 +8,7 @@ Highway kicked off today, and with it come many new projects.
 I've never built any kind of RF device before, so this is entirely new territory for me.
 I decided to do some research into the general design of a transceiver.
 The first thing that I've found is a series of schematics from [QRP-Labs](https://qrp-labs.com/) that details their QCX-mini transceiver. I then found a series by HAM operator Ward Harriman, AE6TY, [detailing the design of a QRP SDR](https://www.ae6ty.com/wp-content/uploads/2024/06/QRP-SDR-1a.pdf) which I have a feeling I'll be utilizing frequently.
+
+![AE6TY's SDR block diagram](./assets/ae6ty_block_diagram.png)
+
+In his guide, he details a block diagram which I'm going to reference for my own board.
