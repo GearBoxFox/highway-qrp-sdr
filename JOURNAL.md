@@ -27,3 +27,5 @@ Now that I've found some resources, I need to begin to plan my transceiver. The 
 **Update after almost 4 hours of research**
 My initial plan was do to a custom RP2350 circuit rather than using an existing MCU like the Pi Pico 2, however PCBWay PCBA costs are far more than I expected, so I will sadly have to scrap that idea and look for solely THT or large footprint SMD components.
 ![PCBWay PCBA costs ;w;](./assets/PCBA_Cost.png)
+
+This does mean that my plan of using the SI5351A clock generator is in trouble, but thankfully Adafruit has a breakout board with the clock generator as a THT part. With these developments, my goal now is to use entirely THT parts for this PCB.
