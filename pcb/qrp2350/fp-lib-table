@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RP2350_KiCad-main")(type "KiCad")(uri "/home/rowanfoxx/Documents/Github/highway-qrp-sdr/pcb/libs/RP2350_KiCad-main")(options "")(descr ""))
+)

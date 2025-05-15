@@ -19,3 +19,11 @@ In his guide, he details a block diagram which I'm going to reference for my own
 4. An amplifier on the transmit end, to bump the power up to 5W.
 
 There will probably be other features, like a Li-Ion battery charger, but my final idea is somewhere inbetween the [QRP QCX-mini](https://qrp-labs.com/qcxmini.html) and the [HF Signals zBitx](https://www.hfsignals.com/index.php/zbitx/).
+
+## May 15th
+
+Now that I've found some resources, I need to begin to plan my transceiver. The part that I'm most unsure of right now is filters and amplifiers, what I'll need for both and how they work. Looking at both the QCX-mini and the [Pi-Pico RX](https://101-things.readthedocs.io/en/latest/radio_receiver.html) on the receiving end I'll need a band-pass filter, so I'm going to spend some time learning how one works. After doing some research, a band-pass filter simply filters out frequencies that are either too high or two low based on a certain range of frequencies. I'm going to be making a single band transceiver, so I'll be opting for the 10M band. As an extra bonus, I had to fix kicad segmentation faulting when I tried to run it on Wayland with a Nvidia GPU :3.
+
+**Update after almost 4 hours of research**
+My initial plan was do to a custom RP2350 circuit rather than using an existing MCU like the Pi Pico 2, however PCBWay PCBA costs are far more than I expected, so I will sadly have to scrap that idea and look for solely THT or large footprint SMD components.
+![PCBWay PCBA costs ;w;](./assets/PCBA_Cost.png)
