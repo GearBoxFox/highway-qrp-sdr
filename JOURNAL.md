@@ -29,3 +29,15 @@ My initial plan was do to a custom RP2350 circuit rather than using an existing 
 ![PCBWay PCBA costs ;w;](./assets/PCBA_Cost.png)
 
 This does mean that my plan of using the SI5351A clock generator is in trouble, but thankfully Adafruit has a breakout board with the clock generator as a THT part. With these developments, my goal now is to use entirely THT parts for this PCB.
+
+## May 22nd
+
+I'm back now after a bit more research and general life things (AP courses). On my search for THT components, I've found the 14529 chip, a dual 1:4 analogue multiplexer which will be the core of the Tayloe detector. I'm realizing just how useful it is to journal progress as I work, as it helps remind me what I was working on.
+
+## May 24rd
+
+Working on the schematic again today, going to try and get the band-pass filter and the QSD made before I get called away again. I managed to finish the receiver schematic based off the QCX-Mini, although I'm slightly worried about certain parts that might be pull down parts since the QCX-Mini uses the ATmega-328P. But if they are I can simply desolder them, hopefully without damaging other parts during testing.
+
+![receiver schematic](./assets/receiverSchematic.png)
+
+It's still missing a speaker output, but that should be easily doable.
