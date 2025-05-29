@@ -1,4 +1,9 @@
-# Project Name Here
+---
+title: "QRPico"
+author: @Rowanfoxx
+description: "A 5w QRP transceiver built with the RP2350/Raspberry Pi Pico 2"
+created_at: "2025-5-14"
+---
 
 I got my amateur radio license late last year, and have been itching to use it more since then. I've decided this summer to work more on using it, but to that extent I need a radio. CW (morse code) seems pretty interesting, and working on the long range HF bands seems like a fun challenge, so I decided to build a 5w CW Software Defined Radio based off the RP2350 chip.
 
@@ -41,3 +46,9 @@ Working on the schematic again today, going to try and get the band-pass filter 
 ![receiver schematic](./assets/receiverSchematic.png)
 
 It's still missing a speaker output, but that should be easily doable.
+
+## May 29th
+
+More delays due to the fun of AP courses. Working on the transmitter today, which should just be a simple FET transister to the connection between the Tayloe Detector and an amplifier for the transmitter. The first thing we need to do is make a switching circuit for when TX and RX, so that we don't burn up the RX circuits and cause noise. This is done with a simple quad-NAND IC. After that, we have the amplifier. I'm going to be using a class-E amplifier, which will require winding a toroid for an inductor. I'm embedding a screenshot of the calculations done for reference, as I know I won't remember afterwards.
+
+![Inductor Calculations](./assets/amplifierInductorCalcs.png)
