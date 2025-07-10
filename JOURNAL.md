@@ -52,3 +52,13 @@ It's still missing a speaker output, but that should be easily doable.
 More delays due to the fun of AP courses. Working on the transmitter today, which should just be a simple FET transister to the connection between the Tayloe Detector and an amplifier for the transmitter. The first thing we need to do is make a switching circuit for when TX and RX, so that we don't burn up the RX circuits and cause noise. This is done with a simple quad-NAND IC. After that, we have the amplifier. I'm going to be using a class-E amplifier, which will require winding a toroid for an inductor. I'm embedding a screenshot of the calculations done for reference, as I know I won't remember afterwards.
 
 ![Inductor Calculations](./assets/amplifierInductorCalcs.png)
+
+## June 9th
+
+Back again, man this is taking me a while. Maybe I'll switch to another project just to have one done before the highway deadline. Anyhow, today we're working on the user interface, and hopefully starting the PCB today.
+
+Time: 1hr
+
+## June 11th
+
+I always say I'm going to do more, and yet here I am again :p. I'm beginning to wonder if I should turn this into a slightly different project of a morse code trainer instead.
